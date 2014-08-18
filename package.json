@@ -1,0 +1,40 @@
+{
+  "name": "stubcell-middleware",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/stubcell-middleware"
+  },
+  "keywords": [
+    "stubcell",
+    "connect",
+    "express",
+    "middleware"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/stubcell-middleware/issues"
+  },
+  "homepage": "https://github.com/yosuke-furukawa/stubcell-middleware",
+  "devDependencies": {
+    "connect": "^3.1.0",
+    "express": "^4.8.4",
+    "serve-static": "^1.4.3"
+  },
+  "dependencies": {
+    "deferred": "^0.7.1",
+    "glob": "^4.0.5",
+    "json5": "^0.2.0",
+    "stubrec": "^0.2.3",
+    "yamljs": "^0.1.5"
+  }
+}
